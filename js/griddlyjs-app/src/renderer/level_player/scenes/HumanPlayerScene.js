@@ -471,8 +471,12 @@ class HumanPlayerScene extends Phaser.Scene {
       "move": [ Phaser.Input.Keyboard.KeyCodes.E, Phaser.Input.Keyboard.KeyCodes.R ],
       "rotate": [ Phaser.Input.Keyboard.KeyCodes.S, Phaser.Input.Keyboard.KeyCodes.A,
                   Phaser.Input.Keyboard.KeyCodes.D, Phaser.Input.Keyboard.KeyCodes.W ],
-      "pickup": [ Phaser.Input.Keyboard.KeyCodes.Y ],
       "use": [ Phaser.Input.Keyboard.KeyCodes.U ],
+      "transfer": [
+        Phaser.Input.Keyboard.KeyCodes.B,
+        Phaser.Input.Keyboard.KeyCodes.N,
+        Phaser.Input.Keyboard.KeyCodes.M,
+       ],
       "shield": [ Phaser.Input.Keyboard.KeyCodes.O ],
       "prestige": [ Phaser.Input.Keyboard.KeyCodes.PLUS ],
       "attack": [ Phaser.Input.Keyboard.KeyCodes.NUMPAD_ONE,
